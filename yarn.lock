@@ -900,10 +900,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/mdx@^12.2.2":
-  version "12.2.2"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.2.2.tgz#1cb24269a7871a728becf7854286f505b667acf3"
-  integrity sha512-d+yHApu6weFYrAbDj+2vMY3uE8kAnoNu5g3w8B3m3skUh6r1ekkKM2YTktlpNpum/XMnKGiPrIdAX4L4KuVdYg==
+"@next/mdx@^12.2.3":
+  version "12.2.3"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.2.3.tgz#6648292ff158f097682ff2320702d6d76e255ce3"
+  integrity sha512-ALZ6F8A/YtIHxPV02R/y2nTdudyWrZjgftlNhP9o96V6llX45X7mnv7mHERd7b4ByrbXDmaWeD9Lbpljmzycvg==
 
 "@next/swc-android-arm-eabi@12.2.2":
   version "12.2.2"
@@ -1515,12 +1515,24 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
+"@types/react-clock@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/react-clock/-/react-clock-3.0.1.tgz#4d8f8736e1ca95d697f2120b5261bd6e45482d48"
+  integrity sha512-lgtqEGV8StA4yTvXqrZGCD4PJFe90RjSMWdgYzPZX7JsIpqZqum9+Dns+UkcnnFOz6jTKXr7e48yNjYREWDe9w==
+
 "@types/react-dom@^18.0.0":
   version "18.0.5"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.5.tgz#330b2d472c22f796e5531446939eacef8378444a"
   integrity sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==
   dependencies:
     "@types/react" "*"
+
+"@types/react-time-picker@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@types/react-time-picker/-/react-time-picker-4.0.2.tgz#5070794ba571a0873b215b42ae1ef1f633a4f3c4"
+  integrity sha512-B7H7ayYULMii0s3E0OJPhBmzTirdn2iiAK8KzZ95dqtOVC5RXz0FM8bOACkGfEK6/UJ3IZfl9CARqzLi9rNELQ==
+  dependencies:
+    "@types/react-clock" "*"
 
 "@types/react@*", "@types/react@^18.0.15":
   version "18.0.15"
