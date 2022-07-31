@@ -8,3 +8,4 @@ describe('Bar', () => {
         expect(container).toBeInTheDocument();
     });
 });
+

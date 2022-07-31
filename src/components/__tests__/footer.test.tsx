@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from 'test-utils';
-import Time from '../Time';
+import Footer from '../Footer';
 
-describe('Time', () => {
+describe('Header', () => {
     it('should render without crashing', () => {
-        const { container } = render(<Time time={0} division={0} min={0} />);
+        const { container } = render(<Footer />);
         expect(container).toBeInTheDocument();
     });
 });

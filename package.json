@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
@@ -19,6 +19,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@emotion-icons/remix-line": "^3.14.0",
     "@emotion/css": "^11.9.0",
     "@emotion/react": "^11.9.0",
     "@emotion/server": "^11.4.0",
@@ -35,6 +36,8 @@
     "react": "^18.2.0",
     "react-day-picker": "^8.0.7",
     "react-dom": "^18.2.0",
+    "react-h5-audio-player": "^3.8.4",
+    "theme-ui": "^0.14.5"
     "theme-ui": "^0.14.7"
   },
   "devDependencies": {

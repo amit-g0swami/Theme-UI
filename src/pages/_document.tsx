@@ -16,7 +16,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head >
+          <link
+            href="https://api.fontshare.com/css?f[]=satoshi@400,500,700&display=swap"
+            rel="stylesheet"
+          />
+        </Head>
         <body>
           <InitializeColorMode />
           <Main />
